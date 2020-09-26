@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\YS.CodeImage.Core\YS.CodeImage.Core.csproj" />
+      <PackageReference Include="QRCoder" Version="1.3.9" />
+  </ItemGroup>
+
+</Project>
